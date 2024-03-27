@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--    <item-->
+<!--        android:id="@+id/addmenu"-->
+<!--        android:icon="@drawable/ic_launcher_background"-->
+<!--        android:title="TODO">-->
+<!--    </item>-->
+
+    <item
+        android:id="@+id/up"
+        android:icon="@mipmap/arrow_upward_white_20"
+        app:showAsAction="ifRoom"
+        android:title="up">
+    </item>
+    <item
+        android:id="@+id/down"
+        android:icon="@mipmap/arrow_downward_white_20"
+        app:showAsAction="ifRoom"
+        android:title="down">
+    </item>
+
+</menu>

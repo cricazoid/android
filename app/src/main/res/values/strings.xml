@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Cadastra Professores</string>
+    <string name="edit">Editar</string>
+    <string name="add">Cadastrar</string>
+    <string name="nome">Nome: </string>
+    <string name="materia">Materia: </string>
+    <string name="email">Email: </string>
+    <string name="telefone">Telefone: </string>
+    <string name="editar">Editar</string>
+    <string name="deletar">Deletar</string>
+    <string name="salvar">salvar</string>
+
+</resources>

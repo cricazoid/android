@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Activities.MainActivity">
+    <EditText
+        android:id="@+id/pesquisa"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pesquisar..."
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/professores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </ListView>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="650dp"
+            android:layout_gravity="end"
+            android:layout_marginLeft="340dp"
+            app:tint="@null"
+            app:fabCustomSize="40dp"
+            android:scaleType="center"
+            app:srcCompat="@mipmap/plus" />
+    </RelativeLayout>
+
+</LinearLayout>
